@@ -1,0 +1,28 @@
+CRITICAL - 2022-11-21 17:15:02 --> Undefined variable $usersData
+in APPPATH/Views/users/users.php on line 11.
+ 1 APPPATH/Views/users/users.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/users/users.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/usersController.php(16): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\usersController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 17:15:23 --> Cannot use object of type App\Models\usersModel as array
+in APPPATH/Controllers/usersController.php on line 14.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\usersController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 17:15:51 --> Undefined variable $usersData
+in APPPATH/Views/users/users.php on line 11.
+ 1 APPPATH/Views/users/users.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/users/users.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/usersController.php(16): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\usersController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
